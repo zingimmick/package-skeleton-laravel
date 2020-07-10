@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Facade;
  */
 class Skeleton extends Facade
 {
-    protected static function getFacadeAccessor():string
+    protected static function getFacadeAccessor(): string
     {
         return 'skeleton';
     }
