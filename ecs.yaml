@@ -10,5 +10,6 @@ parameters:
     - 'clean-code'
     - 'common'
   paths:
+    - config
     - src
     - tests

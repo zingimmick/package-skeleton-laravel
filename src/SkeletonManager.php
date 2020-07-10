@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Zing\Skeleton;
 
-class Example
+class SkeletonManager
 {
     public function foo(): bool
     {

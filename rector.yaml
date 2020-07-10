@@ -21,5 +21,6 @@ parameters:
         - Rector\PHPUnit\Rector\Class_\AddSeeTestAnnotationRector
         - Rector\DeadCode\Rector\Function_\RemoveUnusedFunctionRector
     paths:
+        - config
         - src
         - tests
