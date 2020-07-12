@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.1] - 2020-07-13
 ### Added
-- [#1](https://github.com/zingimmick/package-skeleton-laravel/pull/1) Laravel specific changes
+- Laravel specific changes ([#1](https://github.com/zingimmick/package-skeleton-laravel/pull/1))
 
 [Unreleased]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.0.1...HEAD
 [0.0.1]: https://github.com/zingimmick/package-skeleton-laravel/releases/tag/0.0.1
