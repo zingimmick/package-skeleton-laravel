@@ -30,6 +30,6 @@ class FacadeTest extends TestCase
 
     public function testAlias(): void
     {
-        self::assertTrue(\Skeleton::foo());
+        self::assertSame(forward_static_call([\Skeleton::class, 'foo']), forward_static_call([Skeleton::class, 'foo']));
     }
 }
