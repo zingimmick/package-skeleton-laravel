@@ -3,13 +3,10 @@
 declare(strict_types=1);
 
 use Rector\Core\Configuration\Option;
-use Rector\DeadCode\Rector\Function_\RemoveUnusedFunctionRector;
-use Rector\PHPStan\Rector\Cast\RecastingRemovalRector;
 use Rector\PHPUnit\Rector\Class_\AddSeeTestAnnotationRector;
 use Rector\Set\ValueObject\SetList;
+use Rector\SOLID\Rector\Class_\ChangeReadOnlyVariableWithDefaultValueToConstantRector;
 use Rector\SOLID\Rector\Class_\FinalizeClassesWithoutChildrenRector;
-use Rector\SOLID\Rector\Class_\RepeatedLiteralToClassConstantRector;
-use Rector\SOLID\Rector\ClassMethod\ChangeReadOnlyVariableWithDefaultValueToConstantRector;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator): void {
@@ -35,20 +32,17 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         [
             FinalizeClassesWithoutChildrenRector::class,
             ChangeReadOnlyVariableWithDefaultValueToConstantRector::class,
-            RecastingRemovalRector::class,
-            RepeatedLiteralToClassConstantRector::class,
             AddSeeTestAnnotationRector::class,
-            RemoveUnusedFunctionRector::class,
         ]
     );
     $parameters->set(
         Option::PATHS,
         [
-            'config',
-            'src',
-            'tests',
-            'ecs.php',
-            'rector.php',
+            __DIR__ . '/config',
+            __DIR__ . '/src',
+            __DIR__ . '/tests',
+            __DIR__ . '/ecs.php',
+            __DIR__ . '/rector.php',
         ]
     );
 };
