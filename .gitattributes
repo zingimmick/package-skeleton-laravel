@@ -10,7 +10,7 @@
 CHANGELOG.md export-ignore
 changelog-linker.php export-ignore
 CONTRIBUTING.md export-ignore
-ecs.yaml export-ignore
+ecs.php export-ignore
 phpunit.xml.dist export-ignore
-rector.yaml export-ignore
+rector.php export-ignore
 renovate.json export-ignore
