@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- changelog-linker -->
 
-## Unreleased
+## [0.3.0] - 2020-10-13
 
 ### Changed
 
@@ -29,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [#5] Bump codecov/codecov-action from v1.0.11 to v1.0.12
 - [#4] Update zing/coding-standard requirement from ^1.2.3 to ^2.0.0
 
-## [0.1.0]
+## [0.1.0] - 2020-07-23
 
 ### Changed
 
