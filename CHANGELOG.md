@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- changelog-linker -->
 
+## [0.3.1] - 2020-11-06
+
+### Changed
+
+- [#21] Provisional support for PHP 8.0
+- [#20] Bump codecov/codecov-action from v1.0.13 to v1.0.14
+
 ## [0.3.0] - 2020-10-13
 
 ### Changed
@@ -65,3 +72,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#12]: https://github.com/zingimmick/package-skeleton-laravel/pull/12
 [#11]: https://github.com/zingimmick/package-skeleton-laravel/pull/11
 [0.2.0]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.1.0...0.2.0
+[#21]: https://github.com/zingimmick/package-skeleton-laravel/pull/21
+[#20]: https://github.com/zingimmick/package-skeleton-laravel/pull/20
+[0.3.1]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.3.0...0.3.1
+[0.3.0]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.2.0...0.3.0
