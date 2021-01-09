@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- changelog-linker -->
 
+## Unreleased
+
+### Changed
+
+- [#31] Bump codecov/codecov-action from v1.2.0 to v1.2.1
+- [#30] Update codecov/codecov-action action to v1.2.0
+- [#27] Update codecov/codecov-action action to v1.1.1
+- [#26] Update codecov/codecov-action action to v1.1.0
+- [#25] Bump paambaati/codeclimate-action from v2.7.4 to v2.7.5
+- [#22] Update codecov/codecov-action action to v1.0.15
+
 ## [0.3.1] - 2020-11-06
 
 ### Changed
@@ -76,3 +87,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#20]: https://github.com/zingimmick/package-skeleton-laravel/pull/20
 [0.3.1]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.3.0...0.3.1
 [0.3.0]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.2.0...0.3.0
+[#31]: https://github.com/zingimmick/package-skeleton-laravel/pull/31
+[#30]: https://github.com/zingimmick/package-skeleton-laravel/pull/30
+[#27]: https://github.com/zingimmick/package-skeleton-laravel/pull/27
+[#26]: https://github.com/zingimmick/package-skeleton-laravel/pull/26
+[#25]: https://github.com/zingimmick/package-skeleton-laravel/pull/25
+[#22]: https://github.com/zingimmick/package-skeleton-laravel/pull/22
