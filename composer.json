@@ -9,8 +9,6 @@
             "email": "zingimmick@outlook.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "config": {
         "sort-packages": true,
         "preferred-install": "dist"
@@ -62,5 +60,7 @@
                 "Skeleton": "Zing\\Skeleton\\Facades\\Skeleton"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
