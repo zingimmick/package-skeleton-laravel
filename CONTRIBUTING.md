@@ -47,7 +47,7 @@ composer test
 
 Check types:
 ```bash
-composer test:types
+composer lint:phpstan
 ```
 
 Unit tests:
