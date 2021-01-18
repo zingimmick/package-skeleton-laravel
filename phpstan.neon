@@ -7,4 +7,4 @@ parameters:
     checkMissingIterableValueType: false
     ignoreErrors:
         - '#Class Skeleton not found.#'
-        - '#Parameter \#1 \$function of function forward_static_call expects callable\(\): mixed#'
+        - '#Parameter \#1 \$callback of function forward_static_call expects callable\(\): mixed#'
