@@ -36,12 +36,14 @@
     "scripts": {
         "lint:rector": "@fix:rector --dry-run",
         "lint:ecs": "ecs check --ansi",
+        "lint:phpstan": "phpstan analyse --ansi",
         "fix:rector": "rector process --ansi",
         "fix:ecs": "@lint:ecs --fix",
         "test:phpunit": "phpunit --colors=always",
         "lint": [
             "@lint:rector",
-            "@lint:ecs"
+            "@lint:ecs",
+            "@lint:phpstan"
         ],
         "fix": [
             "@fix:rector",
