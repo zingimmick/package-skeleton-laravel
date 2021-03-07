@@ -26,10 +26,10 @@ jobs:
       - name: Create pull-request
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
-          commit-message: "generate changelog"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Generate Changelog"
           branch: ci-generate-changelog
           base: 'master'
           title: "Generate Changelog"
-          author: koallencheng <koallencheng@users.noreply.github.com>
+          commiter: koallencheng <koallencheng@users.noreply.github.com>
           delete-branch: true
