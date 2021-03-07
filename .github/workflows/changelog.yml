@@ -2,8 +2,6 @@ name: Generate Changelog
 
 on:
   push:
-    tags:
-      - '*'
 
 jobs:
   generate_changelog:
