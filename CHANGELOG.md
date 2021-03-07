@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- [#37] Generate Changelog, Thanks to [@koallencheng]
 - [#34] Bump actions/cache from v2 to v2.1.4
 - [#32] Enable phpstan
 
@@ -95,5 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#26]: https://github.com/zingimmick/package-skeleton-laravel/pull/26
 [#25]: https://github.com/zingimmick/package-skeleton-laravel/pull/25
 [#22]: https://github.com/zingimmick/package-skeleton-laravel/pull/22
+[#37]: https://github.com/zingimmick/package-skeleton-laravel/pull/37
 [#34]: https://github.com/zingimmick/package-skeleton-laravel/pull/34
 [#32]: https://github.com/zingimmick/package-skeleton-laravel/pull/32
+[@koallencheng]: https://github.com/koallencheng
