@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- [#34] Bump actions/cache from v2 to v2.1.4
+- [#32] Enable phpstan
+
 ### Changed
 
 - [#31] Bump codecov/codecov-action from v1.2.0 to v1.2.1
@@ -60,7 +63,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [#1] Laravel specific changes
 
-[Unreleased]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.0.1...HEAD
 [0.0.1]: https://github.com/zingimmick/package-skeleton-laravel/releases/tag/0.0.1
 
 [#10]: https://github.com/zingimmick/package-skeleton-laravel/pull/10
@@ -93,3 +95,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#26]: https://github.com/zingimmick/package-skeleton-laravel/pull/26
 [#25]: https://github.com/zingimmick/package-skeleton-laravel/pull/25
 [#22]: https://github.com/zingimmick/package-skeleton-laravel/pull/22
+[#34]: https://github.com/zingimmick/package-skeleton-laravel/pull/34
+[#32]: https://github.com/zingimmick/package-skeleton-laravel/pull/32
