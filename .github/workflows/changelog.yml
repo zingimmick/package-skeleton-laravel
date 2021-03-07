@@ -31,4 +31,5 @@ jobs:
           branch: ci-generate-changelog
           base: 'master'
           title: "Generate Changelog"
+          author: koallencheng <koallencheng@users.noreply.github.com>
           delete-branch: true
