@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+use PhpCsFixer\Fixer\ControlStructure\YodaStyleFixer;
+use PhpCsFixer\Fixer\Phpdoc\NoSuperfluousPhpdocTagsFixer;
+use PhpCsFixer\Fixer\PhpUnit\PhpUnitInternalClassFixer;
+use PhpCsFixer\Fixer\PhpUnit\PhpUnitTestClassRequiresCoversFixer;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symplify\EasyCodingStandard\ValueObject\Option;
 use Symplify\EasyCodingStandard\ValueObject\Set\SetList;
@@ -12,13 +16,17 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $parameters->set(
         Option::SETS,
         [
-            SetList::PHP_70,
-            SetList::PHP_71,
             SetList::CLEAN_CODE,
             SetList::COMMON,
             SetList::PSR_12,
         ]
     );
+    $parameters->set(Option::SKIP, [
+        YodaStyleFixer::class => null,
+        PhpUnitInternalClassFixer::class,
+        PhpUnitTestClassRequiresCoversFixer::class,
+        NoSuperfluousPhpdocTagsFixer::class,
+    ]);
     $parameters->set(
         Option::PATHS,
         [
