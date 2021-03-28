@@ -11,9 +11,7 @@ class FacadeTest extends TestCase
 {
     protected function getPackageProviders($app)
     {
-        return [
-            SkeletonServiceProvider::class,
-        ];
+        return [SkeletonServiceProvider::class];
     }
 
     protected function getPackageAliases($app)
