@@ -11,12 +11,9 @@ class SkeletonServiceProvider extends ServiceProvider
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
-            $this->publishes(
-                [
-                    $this->getConfigPath() => config_path('skeleton.php'),
-                ],
-                'config'
-            );
+            $this->publishes([
+                $this->getConfigPath() => config_path('skeleton.php'),
+            ], 'config');
         }
 
         $this->app->singleton('skeleton', SkeletonManager::class);
