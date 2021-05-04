@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+
+- [#50] Bump codecov/codecov-action from v1.4.1 to v1.5.0
+- [#49] Bump codecov/codecov-action from v1.4.0 to v1.4.1
+- [#48] Bump codecov/codecov-action from v1.3.2 to v1.4.0
+- [#47] Enable phpstan
+- [#46] Bump codecov/codecov-action from v1.3.1 to v1.3.2
+- [#45] Bump rector/rector from 0.9 to 0.10
+- [#43] Bump codecov/codecov-action from v1.2.2 to v1.3.1
+
+### Fixed
+
+- [#44] Fix cs config
+
 ## [0.3.3] - 2021-03-07
 
 ### Changed
@@ -113,3 +127,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.3.2]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.3.1...0.3.2
 [0.3.1]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.3.0...0.3.1
 [0.3.0]: https://github.com/zingimmick/package-skeleton-laravel/compare/0.2.0...0.3.0
+[#50]: https://github.com/zingimmick/package-skeleton-laravel/pull/50
+[#49]: https://github.com/zingimmick/package-skeleton-laravel/pull/49
+[#48]: https://github.com/zingimmick/package-skeleton-laravel/pull/48
+[#47]: https://github.com/zingimmick/package-skeleton-laravel/pull/47
+[#46]: https://github.com/zingimmick/package-skeleton-laravel/pull/46
+[#45]: https://github.com/zingimmick/package-skeleton-laravel/pull/45
+[#44]: https://github.com/zingimmick/package-skeleton-laravel/pull/44
+[#43]: https://github.com/zingimmick/package-skeleton-laravel/pull/43
