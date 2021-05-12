@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@v2
+        uses: shivammathur/setup-php@2.11.0
 
       - uses: ramsey/composer-install@v1
         with:
