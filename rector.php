@@ -31,13 +31,10 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $parameters->set(
         Option::SKIP,
         [
-            VarConstantCommentRector::class,
             RenameVariableToMatchMethodCallReturnTypeRector::class,
             RenameParamToMatchTypeRector::class,
             AddSeeTestAnnotationRector::class,
-            ChangeReadOnlyVariableWithDefaultValueToConstantRector::class,
             FinalizeClassesWithoutChildrenRector::class,
-            RepeatedLiteralToClassConstantRector::class,
             PrivatizeLocalGetterToPropertyRector::class,
         ]
     );

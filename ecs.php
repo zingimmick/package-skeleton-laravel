@@ -20,7 +20,6 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         YodaStyleFixer::class => null,
         PhpUnitInternalClassFixer::class,
         PhpUnitTestClassRequiresCoversFixer::class,
-        NoSuperfluousPhpdocTagsFixer::class,
     ]);
     $parameters->set(
         Option::PATHS,
