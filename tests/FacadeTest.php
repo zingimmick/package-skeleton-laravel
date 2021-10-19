@@ -9,12 +9,22 @@ use Zing\Skeleton\SkeletonServiceProvider;
 
 class FacadeTest extends TestCase
 {
-    protected function getPackageProviders($app)
+    /**
+     * @param mixed $app
+     *
+     * @return array<class-string<\Zing\Skeleton\SkeletonServiceProvider>>
+     */
+    protected function getPackageProviders($app): array
     {
         return [SkeletonServiceProvider::class];
     }
 
-    protected function getPackageAliases($app)
+    /**
+     * @param mixed $app
+     *
+     * @return array<string, class-string<\Zing\Skeleton\Facades\Skeleton>>
+     */
+    protected function getPackageAliases($app): array
     {
         return [
             'Skeleton' => Skeleton::class,
