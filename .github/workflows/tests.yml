@@ -34,7 +34,8 @@ jobs:
         run: echo "::add-matcher::${{ runner.tool_cache }}/phpunit.json"
 
       - if: matrix.php == '8.1'
-        name: composer require orchestra/testbench:^6.0 --no-update
+        name: Require packages for PHP 8.1
+        run: composer require orchestra/testbench:^6.0 --no-update
 
       - name: Install dependencies
         uses: ramsey/composer-install@v1
