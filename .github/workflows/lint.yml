@@ -9,4 +9,4 @@ on:
 jobs:
   lint:
     name: Lint
-    uses: zingimmick/.github/.github/workflows/lint.yml@switch-fail-fast
+    uses: zingimmick/.github/.github/workflows/lint.yml@main
