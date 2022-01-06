@@ -7,7 +7,10 @@ namespace Zing\Skeleton\Tests;
 use Zing\Skeleton\Facades\Skeleton;
 use Zing\Skeleton\SkeletonServiceProvider;
 
-class FacadeTest extends TestCase
+/**
+ * @internal
+ */
+final class FacadeTest extends TestCase
 {
     /**
      * @param mixed $app
