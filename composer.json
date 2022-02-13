@@ -3,6 +3,7 @@
     "description": "A skeleton repository for Laravel Packages",
     "keywords": ["laravel", "package", "skeleton"],
     "license": "MIT",
+    "homepage": "https://github.com/zingimmick/package-skeleton-laravel",
     "support": {
         "issues": "https://github.com/zingimmick/package-skeleton-laravel/issues",
         "source": "https://github.com/zingimmick/package-skeleton-laravel"
