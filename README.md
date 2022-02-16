@@ -1,13 +1,11 @@
 # Package Skeleton Laravel
 
-<p align="center">
-<a href="https://github.com/zingimmick/package-skeleton-laravel/actions"><img src="https://github.com/zingimmick/package-skeleton-laravel/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://codecov.io/gh/zingimmick/package-skeleton-laravel"><img src="https://codecov.io/gh/zingimmick/package-skeleton-laravel/branch/master/graph/badge.svg" alt="Code Coverage" /></a>
-<a href="https://packagist.org/packages/zing/package-skeleton-laravel"><img src="https://poser.pugx.org/zing/package-skeleton-laravel/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/zing/package-skeleton-laravel"><img src="https://poser.pugx.org/zing/package-skeleton-laravel/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/zing/package-skeleton-laravel"><img src="https://poser.pugx.org/zing/package-skeleton-laravel/v/unstable.svg" alt="Latest Unstable Version"></a>
-<a href="https://packagist.org/packages/zing/package-skeleton-laravel"><img src="https://poser.pugx.org/zing/package-skeleton-laravel/license" alt="License"></a>
-</p>
+[![Build Status](https://github.com/zingimmick/package-skeleton-laravel/workflows/tests/badge.svg)](https://github.com/zingimmick/package-skeleton-laravel/actions)
+[![Code Coverage](https://codecov.io/gh/zingimmick/package-skeleton-laravel/branch/master/graph/badge.svg)](https://codecov.io/gh/zingimmick/package-skeleton-laravel)
+[![Latest Stable Version](https://poser.pugx.org/zing/package-skeleton-laravel/v/stable.svg)](https://packagist.org/packages/zing/package-skeleton-laravel)
+[![Total Downloads](https://poser.pugx.org/zing/package-skeleton-laravel/downloads)](https://packagist.org/packages/zing/package-skeleton-laravel)
+[![Latest Unstable Version](https://poser.pugx.org/zing/package-skeleton-laravel/v/unstable.svg)](https://packagist.org/packages/zing/package-skeleton-laravel)
+[![License](https://poser.pugx.org/zing/package-skeleton-laravel/license)](https://packagist.org/packages/zing/package-skeleton-laravel)
 
 > **Requires**
 > - [PHP 7.2+](https://php.net/releases/)
