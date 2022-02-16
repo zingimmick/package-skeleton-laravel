@@ -52,5 +52,5 @@ composer lint:phpstan
 
 Unit tests:
 ```bash
-composer test:unit
+composer test:phpunit
 ```
