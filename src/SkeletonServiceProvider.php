@@ -13,15 +13,14 @@ class SkeletonServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 $this->getConfigPath() => config_path('skeleton.php'),
-            ], 'config');
+            ], 'skeleton-config');
         }
-
-        $this->app->singleton('skeleton', SkeletonManager::class);
     }
 
     public function register(): void
     {
         $this->mergeConfigFrom($this->getConfigPath(), 'skeleton');
+        $this->app->singleton('skeleton', SkeletonManager::class);
     }
 
     protected function getConfigPath(): string
