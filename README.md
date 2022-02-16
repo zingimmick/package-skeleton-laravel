@@ -1,4 +1,5 @@
 # Package Skeleton Laravel
+
 <p align="center">
 <a href="https://github.com/zingimmick/package-skeleton-laravel/actions"><img src="https://github.com/zingimmick/package-skeleton-laravel/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://codecov.io/gh/zingimmick/package-skeleton-laravel"><img src="https://codecov.io/gh/zingimmick/package-skeleton-laravel/branch/master/graph/badge.svg" alt="Code Coverage" /></a>
@@ -8,7 +9,9 @@
 <a href="https://packagist.org/packages/zing/package-skeleton-laravel"><img src="https://poser.pugx.org/zing/package-skeleton-laravel/license" alt="License"></a>
 </p>
 
-> **Requires [PHP 7.2.0+](https://php.net/releases/)**
+> **Requires**
+> - [PHP 7.2+](https://php.net/releases/)
+> - [Laravel 6.0+](https://laravel.com/docs/releases)
 
 Require Package Skeleton Laravel using [Composer](https://getcomposer.org):
 
