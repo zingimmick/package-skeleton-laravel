@@ -7,9 +7,11 @@
 [![Latest Unstable Version](https://poser.pugx.org/zing/package-skeleton-laravel/v/unstable.svg)](https://packagist.org/packages/zing/package-skeleton-laravel)
 [![License](https://poser.pugx.org/zing/package-skeleton-laravel/license)](https://packagist.org/packages/zing/package-skeleton-laravel)
 
-> **Requires**
-> - [PHP 7.3+](https://php.net/releases/)
-> - [Laravel 6.0+](https://laravel.com/docs/releases)
+### Requirements
+
+- [PHP 7.3+](https://php.net/releases/)
+- [Composer](https://getcomposer.org)
+- [Laravel 8.0+](https://laravel.com/docs/releases)
 
 Require Package Skeleton Laravel using [Composer](https://getcomposer.org):
 
