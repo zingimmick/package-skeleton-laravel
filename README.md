@@ -1,7 +1,7 @@
 # Package Skeleton Laravel
 
-[![Build Status](https://github.com/zingimmick/package-skeleton-laravel/workflows/tests/badge.svg?branch=master)](https://github.com/zingimmick/package-skeleton-laravel/actions)
-[![Code Coverage](https://codecov.io/gh/zingimmick/package-skeleton-laravel/branch/master/graph/badge.svg)](https://codecov.io/gh/zingimmick/package-skeleton-laravel)
+[![tests](https://github.com/zingimmick/package-skeleton-laravel/actions/workflows/tests.yml/badge.svg?branch=2.x)](https://github.com/zingimmick/package-skeleton-laravel/actions/workflows/tests.yml)
+[![Code Coverage](https://codecov.io/gh/zingimmick/package-skeleton-laravel/branch/2.x/graph/badge.svg)](https://codecov.io/gh/zingimmick/package-skeleton-laravel)
 [![Latest Stable Version](https://poser.pugx.org/zing/package-skeleton-laravel/v/stable.svg)](https://packagist.org/packages/zing/package-skeleton-laravel)
 [![Total Downloads](https://poser.pugx.org/zing/package-skeleton-laravel/downloads)](https://packagist.org/packages/zing/package-skeleton-laravel)
 [![Latest Unstable Version](https://poser.pugx.org/zing/package-skeleton-laravel/v/unstable.svg)](https://packagist.org/packages/zing/package-skeleton-laravel)
