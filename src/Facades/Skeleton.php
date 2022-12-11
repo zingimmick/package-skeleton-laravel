@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static bool foo()
+ *
  * @mixin \Zing\Skeleton\SkeletonManager
  */
 class Skeleton extends Facade
