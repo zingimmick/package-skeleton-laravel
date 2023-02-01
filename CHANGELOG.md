@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- changelog-linker -->
+## 3.0.0 - 2022-12-11
+
+<!-- Release notes generated using configuration in .github/release.yml at 3.x -->
+### What's Changed
+
+#### Other Changes
+
+- Allow PHP 8.2 by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/114
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-laravel/compare/2.0.0...3.0.0
+
 ## 2.0.0 - 2022-08-27
 
 <!-- Release notes generated using configuration in .github/release.yml at 2.x -->
