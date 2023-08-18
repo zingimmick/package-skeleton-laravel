@@ -41,6 +41,9 @@ final class FacadeTest extends TestCase
 
     public function testAlias(): void
     {
-        $this->assertSame(forward_static_call([\Skeleton::class, 'foo']), forward_static_call([Skeleton::class, 'foo']));
+        $this->assertSame(
+            forward_static_call([\Skeleton::class, 'foo']),
+            forward_static_call([Skeleton::class, 'foo'])
+        );
     }
 }
