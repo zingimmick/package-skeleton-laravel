@@ -11,5 +11,6 @@ CODE_OF_CONDUCT.md export-ignore
 CONTRIBUTING.md export-ignore
 ecs.php export-ignore
 phpstan.neon export-ignore
+phpstan-bootstrap.php export-ignore
 phpunit.xml.dist export-ignore
 rector.php export-ignore

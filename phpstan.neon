@@ -2,6 +2,10 @@ includes:
     - ./vendor/nunomaduro/larastan/extension.neon
 
 parameters:
+    parallel:
+        jobSize: 1
+    bootstrapFiles:
+        - phpstan-bootstrap.php
     level: max
     paths:
         - config
