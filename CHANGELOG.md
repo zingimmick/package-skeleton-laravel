@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- changelog-linker -->
+## 3.3.0 - 2025-01-22
+
+<!-- Release notes generated using configuration in .github/release.yml at 3.x -->
+### What's Changed
+
+#### Other Changes
+
+* Allow PHPUnit 11 by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/143
+* ci: add .deepsource.toml by @undecane in https://github.com/zingimmick/package-skeleton-laravel/pull/147
+* Remove rules that were never registered by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/152
+* Support for PHP 8.4 by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/154
+* Allow orchestra/testbench 9.0 in tests action by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/156
+* Update license copyright year(s) by @github-actions in https://github.com/zingimmick/package-skeleton-laravel/pull/159
+
+### New Contributors
+
+* @undecane made their first contribution in https://github.com/zingimmick/package-skeleton-laravel/pull/147
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-laravel/compare/3.2.0...3.3.0
+
 ## 3.2.0 - 2024-03-18
 
 <!-- Release notes generated using configuration in .github/release.yml at 3.x -->
