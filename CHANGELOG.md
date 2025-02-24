@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- changelog-linker -->
+## 3.4.0 - 2025-02-24
+
+<!-- Release notes generated using configuration in .github/release.yml at 3.x -->
+### What's Changed
+
+#### Other Changes
+
+* Use larastan/larastan instead of nunomaduro/larastan by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/160
+* Support for Laravel 12 by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/161
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-laravel/compare/3.3.0...3.4.0
+
 ## 3.3.0 - 2025-01-22
 
 <!-- Release notes generated using configuration in .github/release.yml at 3.x -->
