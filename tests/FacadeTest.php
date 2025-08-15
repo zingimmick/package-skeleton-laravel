@@ -17,7 +17,7 @@ final class FacadeTest extends TestCase
      *
      * @return array<class-string<\Zing\Skeleton\SkeletonServiceProvider>>
      */
-    protected function getPackageProviders($app): array 
+    protected function getPackageProviders($app): array
     {
         return [SkeletonServiceProvider::class];
     }
