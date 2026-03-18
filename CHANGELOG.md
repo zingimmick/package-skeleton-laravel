@@ -6,6 +6,34 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- changelog-linker -->
+## 3.5.0 - 2026-03-18
+
+<!-- Release notes generated using configuration in .github/release.yml at 3.x -->
+### What's Changed
+
+#### Other Changes
+
+* Support for PHPUnit 12 by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/162
+* Bump shivammathur/setup-php from 2.32.0 to 2.33.0 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/163
+* Bump shivammathur/setup-php from 2.33.0 to 2.34.0 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/164
+* Bump shivammathur/setup-php from 2.34.0 to 2.34.1 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/165
+* Bump shivammathur/setup-php from 2.34.1 to 2.35.1 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/166
+* Bump shivammathur/setup-php from 2.35.1 to 2.35.2 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/167
+* Bump shivammathur/setup-php from 2.35.2 to 2.35.3 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/168
+* Bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/169
+* Bump shivammathur/setup-php from 2.35.3 to 2.35.4 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/170
+* Bump shivammathur/setup-php from 2.35.4 to 2.35.5 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/171
+* Support for PHP 8.5 by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/172
+* Bump actions/checkout from 5 to 6 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/173
+* Bump shivammathur/setup-php from 2.35.5 to 2.36.0 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/174
+* Update license copyright year(s) by @github-actions[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/175
+* Update orchestra/testbench version constraint by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/176
+* Bump shivammathur/setup-php from 2.36.0 to 2.37.0 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/177
+* Support for Laravel 13 by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/179
+* Bump ramsey/composer-install from 3 to 4 by @dependabot[bot] in https://github.com/zingimmick/package-skeleton-laravel/pull/178
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-laravel/compare/3.4.0...3.5.0
+
 ## 3.4.0 - 2025-02-24
 
 <!-- Release notes generated using configuration in .github/release.yml at 3.x -->
