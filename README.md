@@ -9,7 +9,7 @@
 
 ### Requirements
 
-- [PHP 8.0+](https://php.net/releases/)
+- [PHP 8.2+](https://php.net/releases/)
 - [Composer](https://getcomposer.org)
 - [Laravel 8.0+](https://laravel.com/docs/releases)
 
