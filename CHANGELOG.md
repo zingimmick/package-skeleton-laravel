@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- changelog-linker -->
+## 3.6.1 - 2026-11-27
+
+<!-- Release notes generated using configuration in .github/release.yml at 4.x -->
+### What's Changed
+
+#### Other Changes
+
+* Update README badges for version 4.x by @zingimmick in https://github.com/zingimmick/package-skeleton-laravel/pull/188
+
+**Full Changelog**: https://github.com/zingimmick/package-skeleton-laravel/compare/3.6.0...3.6.1
+
 ## 3.6.0 - 2026-11-27
 
 <!-- Release notes generated using configuration in .github/release.yml at 4.x -->
