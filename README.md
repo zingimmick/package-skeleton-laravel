@@ -11,7 +11,7 @@
 
 - [PHP 8.2+](https://php.net/releases/)
 - [Composer](https://getcomposer.org)
-- [Laravel 8.0+](https://laravel.com/docs/releases)
+- [Laravel 12.0+](https://laravel.com/docs/releases)
 
 Require Package Skeleton Laravel using [Composer](https://getcomposer.org):
 
